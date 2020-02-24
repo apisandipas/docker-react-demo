@@ -1,8 +1,8 @@
 ## React Docker Example
 
-| Scripts          |                                                                |
-| ---------------- | -------------------------------------------------------------- |
-| docker-up:dev    | docker-compose -f docker/docker-compose.dev.yml up -d --build  |
-| docker-up:prod   | docker-compose -f docker/docker-compose.prod.yml up -d --build |
-| docker-down:dev  | docker-compose -f ./docker/docker-compose.dev.yml down         |
-| docker-down:prod | docker-compose -f ./docker/docker-compose.prod.yml down        |
+| Scripts          |                                                        |
+| ---------------- | ------------------------------------------------------ |
+| docker-up:dev    | Start up dev environment - check http://localhost:3001 |
+| docker-up:prod   | Start up build environment - check http://localhost:80 |
+| docker-down:dev  | Tear down running dev instance                         |
+| docker-down:prod | Tear down running build instance                       |
